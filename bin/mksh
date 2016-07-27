@@ -1,0 +1,19 @@
+#!/bin/bash
+NAME=$1
+EXT=.sh
+if [ "${NAME/.sh}" = "$NAME" ]
+then
+	NAME=$(eval "echo $NAME.sh")
+	echo Creating $NAME with argument/s: ${@:2}
+fi
+if [ $# -eq 1 ]
+then
+	cp ~/Templates/shell.sh $NAME
+	eval "sed -i 's/script/$NAME/g' $NAME"
+elif [ $# -gt 1 ]
+then
+	cp ~/Templates/shellargs.sh $NAME
+	ARGN=$(($#-1))
+	eval "sed -i 's/-eq 1/-eq $ARGN/g' $NAME"
+	eval "sed -i 's/script ARGS/$@/g' $NAME"
+fi
