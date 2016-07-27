@@ -1,6 +1,5 @@
 #!/bin/bash
 NAME=$1
-EXT=.sh
 if [ "${NAME/.sh}" = "$NAME" ]
 then
 	NAME=$(eval "echo $NAME.sh")
