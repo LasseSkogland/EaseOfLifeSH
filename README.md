@@ -1,5 +1,5 @@
 # EaseOfLifeSH
-Simple shellscripts for ease of access on linux systems.
+Simple shellscripts for ease of access on unix systems.
 
 # Contents:
 * bin/mksh: Make a shellscript quickly
