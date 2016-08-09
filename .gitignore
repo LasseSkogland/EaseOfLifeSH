@@ -1,0 +1,10 @@
+*.pyc
+*.exe
+*.dll
+*.bat
+.dropbox
+desktop.ini
+*.exe.manifest
+Makefile
+*.log
+*.obj

@@ -1,0 +1,1 @@
+//Start - Global#include <stdlib.h>#include <stdio.h>#include <string.h>#include <winsock2.h>#include <windows.h>#define WIN32_LEAN_AND_MEAN#define debug(MSG) printf("%s\n", MSG)#define Write(MSG) send(sock, MSG, strlen(MSG), 0)#define Read(MSG, SIZE) recv(sock, MSG, SIZE, 0)extern int sock;typedef struct Coord {	int x, y; } Coord;

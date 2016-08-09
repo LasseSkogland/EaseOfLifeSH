@@ -1,9 +1,2 @@
-# EaseOfLifeSH
-Simple shellscripts for ease of access on unix systems.
-
-# Contents:
-* bin/mksh: Make a shellscript quickly
-<br />Usage: mksh SCRIPTNAME [ARG1] [ARG2] ...
-* Templates/shell.sh: Barebones shell script (bash)
-* Templates/shellargs.sh: Shell script with argument-handling
-* install.sh: Install script
+# Scripts and Source
+Random scripts and source code (don't jugde, this is alot of old 5#1T)
